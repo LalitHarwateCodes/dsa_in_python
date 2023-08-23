@@ -1,4 +1,4 @@
-def binarySearch(arr,key):
+def binarySearch(arr,key): 
     begin_index = 0
     end_index = len(arr)-1
 
@@ -13,6 +13,7 @@ def binarySearch(arr,key):
         else:
             begin_index = midpoint+1
     return None
+
 
 
 print(binarySearch([1,2,3,4,5,6],6))
